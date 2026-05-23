@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toyosi | Web Developer</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+    }
+
+    .hero img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+
+    .hero button {
+      margin-top: 15px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: white;
+      color: black;
+      font-weight: bold;
+    }
+
+    /* SECTIONS */
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .dark {
+      background: #111827;
+    }
+
+    /* SKILLS GRID */
+    .skills {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .skill {
+      background: #1f2937;
+      padding: 12px 20px;
+      border-radius: 10px;
+    }
+
+    /* PROJECT CARD */
+    .card {
+      background: #1f2937;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 300px;
+      margin: auto;
+    }
+
+    /* CONTACT */
+    .contact {
+      background: #1f2937;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 28px;
+      }
+
+      .hero p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+
+    <img src="profile.jpg.png" alt="profile">
+
+    <h1>Hi, I'm Toyosi 👨‍💻</h1>
+
+    <p>Frontend Developer | Engineering Student</p>
+
+    <button onclick="alert('Let’s work together 🚀')">
+      Hire Me
+    </button>
+
+  </div>
+
+  <!-- ABOUT -->
+  <div class="section">
+
+    <h2>About Me</h2>
+
+    <p style="max-width:700px; margin:auto; opacity:0.85; line-height:1.7;">
+      I am a web developer focused on building clean and responsive websites.
+      I enjoy learning frontend development and creating real-world projects.
+    </p>
+
+  </div>
+
+  <!-- SKILLS -->
+  <div class="section dark">
+
+    <h2>Skills</h2>
+
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+       <div class="skill">Python</div>
+      </div>
+
+  </div>
+
+  <!-- PROJECT -->
+  <div class="section">
+
+    <h2>Projects</h2>
+
+    <div class="card">
+      My Portfolio Website
+    </div>
+
+  </div>
+
+  <!-- CONTACT -->
+  <div class="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: e.e.toyosi@gmail.com</p>
+    <p>Phone: +234 903 503 4038</p>
+
+  </div>
+
+</body>
+</html>
